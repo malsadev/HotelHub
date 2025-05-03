@@ -290,7 +290,20 @@ export default function RoomSearchForm() {
             body: JSON.stringify(payload),
         }).then(response => response.json())
         .then(data => {
-            localStorage.setItem('rooms', JSON.stringify(data));
+            // Hardcoded 10 room objects for testing/demo purposes
+            const hardcodedRooms = Array.from({ length: 10 }, (_, i) => ({
+                room_id: i + 1,
+                hotel_chain_name: `Hotel-Chain-${(i % 3) + 1}`,
+                hotel_name: `Hotel ${i + 1}`,
+                room_number: 100 + i,
+                capacity: (i % 4) + 1,
+                price_per_day: 100 + i * 10,
+                hotel_rating: ((i % 5) + 1),
+                country_name: "CANADA",
+                city: `City ${i + 1}`,
+                available: true,
+            }));
+            localStorage.setItem('rooms', JSON.stringify(hardcodedRooms));
             console.log(localStorage.getItem('rooms'));
             setError(null);
             router.push('/rooms/list');
