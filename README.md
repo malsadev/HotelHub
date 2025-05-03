@@ -1,12 +1,6 @@
-# HotelHub – Hotel Booking Management System
+## HotelHub – Hotel Booking Management System
 
-**HotelHub** is a full-stack hotel booking management system built with modern web technologies. It consists of three main components:
-
-- **PostgreSQL** – Relational database management system (RDBMS)
-- **Django** – Python-based backend framework for handling business logic and API requests
-- **React** – Frontend JavaScript library for building dynamic user interfaces
-
----
+**HotelHub** is a full-stack hotel booking management system built with modern web technologies.
 
 ## 📦 Technologies Used
 
