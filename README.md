@@ -10,6 +10,8 @@
 - **Containerization**: Docker & Docker Compose
 
 ---
+
+## Some Screenshots
 <p float="left">
  <img src="screenshots/registration_page.png" alt="Home Screenshot" width="400"/>
 <img src="screenshots/login_page.png" alt="Home Screenshot" width="400"/>
