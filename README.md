@@ -25,7 +25,7 @@ Run `cd $PROJECT_ROOT/frontend && npm run dev`.
 ```
 ### 3. Launch the Backend
 ```bash
-cd csi2532-project/ehotels
+cd ehotels
 docker compose up
 
 ```
