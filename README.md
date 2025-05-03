@@ -10,6 +10,20 @@
 - **Containerization**: Docker & Docker Compose
 
 ---
+<p float="left">
+ <img src="screenshots/registration_page.png" alt="Home Screenshot" width="400"/>
+<img src="screenshots/login_page.png" alt="Home Screenshot" width="400"/>
+</p>
+
+<p float="left">
+<img src="screenshots/search_page.png" alt="Home Screenshot" width="400"/>
+<img src="screenshots/add_new_room_page.png" alt="Home Screenshot" width="400"/>
+</p>
+
+<p float="left">
+<img src="screenshots/rooms_page.png" alt="Home Screenshot" width="400"/>
+<img src="screenshots/reservation_page.png" alt="Home Screenshot" width="400"/>
+</p>
 
 ## 🚀 Installation Guide
 
