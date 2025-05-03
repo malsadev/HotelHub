@@ -1,8 +1,40 @@
-# csi2532-project
+# eHotels – Hotel Booking Management System
+
+**HotelHub** is a full-stack hotel booking management system built with modern web technologies. It consists of three main components:
+
+- **PostgreSQL** – Relational database management system (RDBMS)
+- **Django** – Python-based backend framework for handling business logic and API requests
+- **React** – Frontend JavaScript library for building dynamic user interfaces
+
+---
+
+## 📦 Technologies Used
+
+- **Backend**: Django (Python)
+- **Frontend**: React
+- **Database**: PostgreSQL
+- **Containerization**: Docker & Docker Compose
+
+---
+
+## 🚀 Installation Guide
+
+Follow the steps below to get the application running locally:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/malsadev/HotelHub.git
 
 ## Running the front end
 Run `cd $PROJECT_ROOT/frontend && npm run dev`.
+```
+### 3. Launch the Backend
+```bash
+cd csi2532-project/ehotels
+docker compose up
 
+```
 ## SQL schemas
 
 ### country
