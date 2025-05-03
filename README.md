@@ -1,4 +1,4 @@
-# eHotels – Hotel Booking Management System
+# HotelHub – Hotel Booking Management System
 
 **HotelHub** is a full-stack hotel booking management system built with modern web technologies. It consists of three main components:
 
